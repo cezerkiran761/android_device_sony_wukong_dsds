@@ -13,7 +13,10 @@
 # limitations under the License.
 
 include device/sony/msm8226-common/BoardConfig.mk
-
+#NFC
+BOARD_NFC_CHIPSET += pn544
+#alasa
+#BOARD_USES_LEGACY_ALSA_AUDIO := true
 TARGET_BOOTLOADER_BOARD_NAME := D2533
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1932735283

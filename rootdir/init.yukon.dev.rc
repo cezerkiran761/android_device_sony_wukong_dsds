@@ -1,3 +1,10 @@
+on boot
+    chown system system /sys/class/leds/lm3630-lcd-bl/brightness
+    chown system system /sys/class/leds/lm3630-lcd-bl/cabc
+    chown system system /sys/class/leds/lm3630-lcd-bl/fsc
+    chown system system /sys/class/leds/lm3630-lcd-bl/pwm
+
+
 #SONY misc
 service tad_static /system/bin/tad_static /dev/block/platform/msm_sdcc.1/by-name/TA 0,16
     user root
@@ -11,10 +18,10 @@ service sensors /system/bin/sensors.qcom
     user root
     group root
 
-#OSS WLAN setup
-service wcnss_addr /system/bin/wcnss_addr /sys/devices/fb000000.qcom,wcnss-wlan/wcnss_mac_addr
-    class main
+#MAC setup
+service btnvtool /system/bin/btnvtool -I
     user root
+    group root
     oneshot
 
 #OSS BT setup
@@ -23,3 +30,4 @@ service bt_addr /system/bin/bt_addr
     user root
     group root
     oneshot
+

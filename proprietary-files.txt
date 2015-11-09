@@ -12,7 +12,6 @@ bin/mpdecision
 bin/netmgrd
 bin/ptt_socket_app
 bin/qcom-system-daemon
-bin/qmiproxy
 bin/qmuxd
 bin/qseecomd
 bin/radish
@@ -71,7 +70,10 @@ etc/firmware/modem.b00
 etc/firmware/modem.b01
 etc/firmware/modem.b02
 etc/firmware/modem.b03
+etc/firmware/modem.b03
+etc/firmware/modem.b06
 etc/firmware/modem.b08
+etc/firmware/modem.b09
 etc/firmware/modem.b11
 etc/firmware/modem.b12
 etc/firmware/modem.b13
@@ -121,6 +123,8 @@ etc/firmware/wcnss.b07
 etc/firmware/wcnss.b08
 etc/firmware/wcnss.b09
 etc/firmware/wcnss.mdt
+etc/firmware/wcd9306/wcd9306_anc.bin
+etc/firmware/wcd9306/wcd9306_mbnc.bin
 lib/hw/camera.msm8226.so:lib/hw/camera.vendor.msm8226.so
 lib/hw/lights.default.so:lib/hw/lights.vendor.default.so
 lib/hw/libdisplay.default.so:lib/hw/libdisplay.vendor.default.so
@@ -147,6 +151,8 @@ lib/sysmon/sysmon_tsens_tz_sensor5.so
 lib/sysmon/sysmon_usb_current_limit_value.so
 lib/sysmon/sysmon_wlan_limit.so
 lib/sysmon/sysmon_xo_therm.so
+lib/modules/wlan.ko
+lib/modules/pronto/pronto_wlan.ko
 lib/lib_asb_tee.so
 lib/libcamera_clientsemc.so
 lib/libchromatix_imx134_SOI08BS2_liveshot.so
@@ -161,6 +167,7 @@ lib/libmmcamera_holly_eeprom.so
 lib/libcamera_client.so
 lib/libcamera_metadata.so
 lib/libmmcamera_interface.so
+lib/libcameraextensionclient.so
 lib/libmm-qcamera.so
 lib/libmorpho_denoiser.so
 lib/libmorpho_easy_hdr.so
@@ -212,6 +219,7 @@ vendor/lib/libAKM8963.so
 vendor/lib/libaudcal.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libbtnv.so
+vendor/lib/libactuator_bu64291gwz_camera.so
 vendor/lib/libchromatix_imx134_SOI08BS2_common.so
 vendor/lib/libchromatix_imx134_SOI08BS2_default_video.so
 vendor/lib/libchromatix_imx134_SOI08BS2_liveshot_beach.so
@@ -281,7 +289,6 @@ vendor/lib/libCommandSvc.so
 vendor/lib/libconfigdb.so
 vendor/lib/libdiag.so
 vendor/lib/libdsi_netctrl.so
-vendor/lib/libdsnetutils.so
 vendor/lib/libdsucsd.so
 vendor/lib/libdsutils.so
 vendor/lib/libExtendedExtractor.so
@@ -290,6 +297,7 @@ vendor/lib/libidl.so
 vendor/lib/liblisten.so
 vendor/lib/liblistenhardware.so
 vendor/lib/liblistenjni.so
+vendor/lib/mini_audio.so
 vendor/lib/libmm-abl-oem.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
@@ -338,6 +346,7 @@ vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
+vendor/lib/libQSEEComAPI.so
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
@@ -360,3 +369,19 @@ vendor/lib/libwvdrm_L3.so
 vendor/lib/libwvm.so
 vendor/lib/libWVStreamControlAPI_L3.so
 vendor/lib/libxml.so
+vendor/lib/mmi_audio.so
+vendor/lib/mmi_flashlight.so
+vendor/lib/mmi_fm.so
+vendor/lib/mmi_gps_garden.so
+vendor/lib/mmi_gsensor.so
+vendor/lib/mmi_gyroscope.so
+vendor/lib/mmi_lcd.so
+vendor/lib/mmi_lsensor.so
+vendor/lib/mmi_msensor.so
+vendor/lib/mmi_psensor.so
+vendor/lib/mmi_sim.so
+vendor/lib/mmi_volume.so
+vendor/lib/mmi_wifi.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
