@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     device/sony/wukong/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml \
     device/sony/wukong/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/sony/wukong/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
+    device/sony/wukong/rootdir/system/etc/sap.conf:system/etc/sap.conf \
     device/sony/wukong/rootdir/init.yukon.dev.rc:root/init.yukon.dev.rc \
     device/sony/wukong/rootdir/fstab.yukon:root/fstab.yukon
 
