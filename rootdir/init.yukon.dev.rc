@@ -16,5 +16,3 @@ service btnvtool /system/bin/btnvtool -I
     user root
     group root
     oneshot
-
-

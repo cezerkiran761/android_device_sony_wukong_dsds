@@ -37,8 +37,9 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=d2533 \
-    BUILD_FINGERPRINT=Sony/d2533/d2533:4.4.3/19.1.1.A.0.165/Wv93Zw:user/release-keys \
-    PRIVATE_BUILD_DESC="d2533-user 4.4.3 19.1.1.A.0.165 Wv93Zw release-keys"
+    BUILD_FINGERPRINT=Sony/D2533/D2533:5.1.1/19.4.A.0.182/26220503:user/release-keys \
+    PRIVATE_BUILD_DESC="D2533-user 5.1.1 19.4.A.0.182 26220503 release-keys"
+
 
 PRODUCT_NAME := cm_wukong
 PRODUCT_DEVICE := wukong
