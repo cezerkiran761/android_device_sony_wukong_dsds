@@ -35,6 +35,10 @@ $(call inherit-product, device/sony/common/resources.mk)
 # Inherit CM common stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
+SOMC_CFG_SENSORS_ACCEL_BMA250 := yes
+SOMC_CFG_SENSORS_COMPASS_AK8963 := yes
+SOMC_CFG_SENSORS_LIGHT_LIBALS := yes
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=d2533 \
     BUILD_FINGERPRINT=Sony/D2533/D2533:5.1.1/19.4.A.0.182/26220503:user/release-keys \

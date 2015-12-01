@@ -32,6 +32,9 @@ bin/updatemiscta
 bin/usb_uicc_client
 bin/usbhub
 bin/usbhub_init
+bin/illumination_service
+bin/sapd
+bin/system_monitor
 etc/firmware/wcd9306/wcd9306_anc.bin
 etc/firmware/wcd9306/wcd9306_mbhc.bin
 etc/firmware/adsp.b00
@@ -133,8 +136,14 @@ lib/libmorpho_object_tracker2.so
 lib/libmorpho_posture_detect.so
 lib/libmorpho_scene_detector.so
 lib/libmorpho_super_resolution.so
+lib/libsys-utils.so
+lib/liblights-core.so
+lib/libqsap_sdk.so
+lib/libsapporo.so
+lib/hw/lights.default.so
+lib/hw/camera.msm8226.so
 vendor/firmware/libpn547_fw.so
-vendor/lib/hw/camera.msm8226.so
+vendor/lib/hw/sensors.msm8226.so
 vendor/lib/lib-imsdpl.so
 vendor/lib/lib-imsrcscmservice.so
 vendor/lib/libcne.so
@@ -149,3 +158,6 @@ vendor/lib/libbccQTI.so
 vendor/lib/libAKM8963.so
 vendor/lib/libimscamera_jni.so
 vendor/lib/libalarmservice_jni.so
+vendor/lib/libmsapm_jni.so
+vendor/lib/liblbs_core.so
+vendor/lib/liblocationservice.so
