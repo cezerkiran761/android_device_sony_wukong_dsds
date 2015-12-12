@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_d2533-userdebug
-add_lunch_combo cm_wukong-userdebug
+add_lunch_combo aosp_d2502-userdebug
+add_lunch_combo omni_wukong_dsds-userdebug
 
