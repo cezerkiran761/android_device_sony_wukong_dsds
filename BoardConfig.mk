@@ -12,9 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/yukon/BoardConfig.mk
+include device/sony/yukon-common/BoardConfig.mk
+include device/sony/yukon-common/BoardConfigOmni.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := D2533
+TARGET_RECOVERY_FSTAB = device/sony/wukong_dsds/rootdir/fstab.yukon
+
+TARGET_BOOTLOADER_BOARD_NAME := D2502
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1932735283
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 5583457484
