@@ -12,4 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_d2533.mk
+PRODUCT_MAKEFILES := \
+        $(LOCAL_DIR)/aosp_d2502.mk
+        $(LOCAL_DIR)/omni_wukong_dsds.mk
